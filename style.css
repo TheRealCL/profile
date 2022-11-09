@@ -1,0 +1,68 @@
+body {
+  background-color: #e9ecef;
+  font-family: Arial, sans-serif;
+  color: #252422;
+  font-size: 20px;
+}
+
+h1, h2, h3 {
+  font-family: Arial, serif;
+  font-size: 30px;
+}
+
+a {
+  color: #eb5e28;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.container {
+  text-align: center;
+  width: 750px;
+  margin: 0 auto;
+}
+
+.card {
+  background: #f8f9fa;
+  border-radius: 3px;
+  box-shadow: 2px 2px 3px #ced4da;
+  padding: 25px;
+  margin: 20px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-orange{
+  background-color: #eb5e28;
+  padding: 12px 24px;
+  border-radius: 8px;
+  color: #f8f9fa;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 750px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 550px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
